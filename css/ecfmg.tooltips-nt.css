@@ -1,0 +1,156 @@
+/********************** HEADER STYLES *************************/
+div.grid_980 div.header_left {width:10px; height:123px; float:left; background:url(../images/header.left.10.jpg) no-repeat; overflow:hidden;}
+div.grid_980 div.header_960 {width:960px; height:123px; float:left; background:url(../images/header.logo.jpg) no-repeat;}
+div.grid_980 div.header_960 div.header-spacer {position:relative; display:block; left:5px; top:13px; border:none; width:530px; height:50px; margin-bottom:3px;}
+div.grid_980 div.header_960 div.searchdiv {width: 100%; position:relative; margin-top:-28px;}
+div.grid_980 div.header_960 div form {position:relative; left:650px; top:12px; border:none; width:300px;}
+div.grid_980 div.header_960 div form input.field {background:url(../images/header-searchfield-bg.jpg) no-repeat; height:20px; width:189px; border:none; top:21px; color:#999;}
+div.grid_980 div.header_960 div form input.searchbutton {background:url(../images/header-search-button.jpg) no-repeat; width:22px; height:20px; border:none; margin:0 0 0 5px; top:21px;}
+div.grid_980 div.header_right {width:10px; height:123px; float:left; background:url(../images/header.right.10.jpg) no-repeat; overflow:hidden;}
+
+/********************** BUTTON & DIV STYLES ********************/
+div.grid_183 {width:183px; height:27px; display:inline; float:left; margin-top:33px; margin-right:5px; margin-bottom:8px; margin-left:4px;} /* was 83px 5px 8px 4px; */
+.about {width:183px; height:27px; display:block; background:url(../images/button-about-183.gif) no-repeat; overflow:hidden;}
+a.programs {width:183px; height:27px; display:block; background:url(../images/button-programs-183.gif) no-repeat; overflow:hidden;}
+a.onlineservices {width:183px; height:27px; display:block; background:url(../images/button-onlineservices-183.gif) no-repeat; overflow:hidden;}
+a.news {width:183px; height:27px; display:block; background:url(../images/button-news-183.gif) no-repeat; overflow:hidden;}
+a.resources {width:183px; height:27px; display:block; background:url(../images/button-resources-183.gif) no-repeat; overflow:hidden;}
+
+/*********************** ABOUT TOOLTIP STYLES *************************/  
+div.ttAbout                                                                           {display:none; z-index:600; margin:-4px 0 0 -202px; position:absolute; background:transparent url("../images/tooltip_about.png") no-repeat; width:780px; height:110px;} 
+div.ttAbout div.tooltipmenu                                                           {padding:27px 0 0 15px; width:750px; height:70px;}
+div.ttAbout div.tooltipmenu div.border-left                                           {border-left:1px solid #006699;}
+div.ttAbout div.tooltipmenu div.twentyfive-twentyfive                                 {width:186px; height:70px; float:left; margin:0;}
+div.ttAbout div.tooltipmenu div.twentyfive-twentyfive a                               {color:#006699; text-decoration:none;}
+div.ttAbout div.tooltipmenu div.twentyfive-twentyfive a div.aboutoverview             {height:34px; width:187px; display:block; background:transparent url(../images/tooltip_arrow.gif) no-repeat 0 8px; overflow:hidden; color:#074677; border-bottom:1px solid #006699;}
+div.ttAbout div.tooltipmenu div.twentyfive-twentyfive a div.aboutoverview h5          {margin:9px 0 auto 20px; padding:1px 0 0 0; font-size:12px; letter-spacing:normal; color:#006699; text-decoration:none;}
+div.ttAbout div.tooltipmenu div.twentyfive-twentyfive a div.svmpecfmg                 {height:34px; width:187px; display:block; background:transparent url(../images/tooltip_arrow.gif) no-repeat 0 1px; overflow:hidden; color:#074677; border-bottom:1px solid #006699;}
+div.ttAbout div.tooltipmenu div.twentyfive-twentyfive a div.svmpecfmg h5.svmp         {margin:auto 0 auto 20px; padding:1px 0 0 0; font-size:12px; line-height:15px; letter-spacing:normal; color:#006699; text-decoration:none;}
+div.ttAbout div.tooltipmenu div.twentyfive-twentyfive a div.aboutannualreport          {height:34px; width:187px; display:block; background:transparent url(../images/tooltip_arrow.gif) no-repeat 0 8px; overflow:hidden; color:#074677; border-bottom:1px solid #006699;}
+div.ttAbout div.tooltipmenu div.twentyfive-twentyfive a div.aboutannualreport h5       {margin:9px 0 auto 20px; padding:1px 0 0 0; font-size:12px; letter-spacing:normal; color:#006699; text-decoration:none;}
+div.ttAbout div.tooltipmenu div.twentyfive-twentyfive a div.organizational             {height:34px; width:189px; display:block; background:transparent url(../images/tooltip_arrow.gif) no-repeat 0 8px; overflow:hidden; color:#074677; border-bottom:1px solid #006699;}
+div.ttAbout div.tooltipmenu div.twentyfive-twentyfive a div.organizational h5          {margin:9px 0 auto 20px; padding:1px 0 0 0; font-size:12px; letter-spacing:normal; color:#006699; text-decoration:none;}
+div.ttAbout div.tooltipmenu div.twentyfive-twentyfive a div.trustees                  {height:33px; width:187px; display:block; background:transparent url(../images/tooltip_arrow.gif) no-repeat 0 8px; overflow:hidden; color:#074677; border-bottom:1px solid #006699;}
+div.ttAbout div.tooltipmenu div.twentyfive-twentyfive a div.trustees h5               {margin:9px 0 auto 20px; padding:1px 0 0 0; font-size:12px; letter-spacing:normal; color:#006699; text-decoration:none;}
+div.ttAbout div.tooltipmenu div.twentyfive-twentyfive a div.seniorstaff               {height:33px; width:187px; display:block; background:transparent url(../images/tooltip_arrow.gif) no-repeat 0 8px; overflow:hidden; color:#074677; border-bottom:1px solid #006699;}
+div.ttAbout div.tooltipmenu div.twentyfive-twentyfive a div.seniorstaff h5            {margin:9px 0 auto 20px; padding:1px 0 0 0; font-size:12px; letter-spacing:normal; color:#006699; text-decoration:none;}
+div.ttAbout div.tooltipmenu div.twentyfive-twentyfive a div.history                   {height:33px; width:187px; display:block; background:transparent url(../images/tooltip_arrow.gif) no-repeat 0 8px; overflow:hidden; color:#074677; border-bottom:1px solid #006699;}
+div.ttAbout div.tooltipmenu div.twentyfive-twentyfive a div.history h5                {margin:9px 0 auto 20px; padding:1px 0 0 0; font-size:12px; letter-spacing:normal; color:#006699; text-decoration:none;}
+div.ttAbout div.tooltipmenu div.twentyfive-twentyfive a div.careers                   {height:33px; width:189px; display:block; background:transparent url(../images/tooltip_arrow.gif) no-repeat 0 8px; overflow:hidden; color:#074677; border-bottom:1px solid #006699;}
+div.ttAbout div.tooltipmenu div.twentyfive-twentyfive a div.careers h5                {margin:9px 0 auto 20px; padding:1px 0 0 0; font-size:12px; letter-spacing:normal; color:#006699; text-decoration:none;}
+
+/*********************** PROGRAMS TOOLTIP STYLES *************************/  
+div.ttPrograms                                                                       {display:none; z-index:600; margin:-4px 0 0 -388px; position:absolute; background:transparent url("../images/tooltip_programs.png") no-repeat; width:780px; height:320px;} /* was 275 */
+div.ttPrograms div.tooltipmenu                                                       {padding:27px 0 0 15px; width:750px; height:235px;}
+div.ttPrograms div.tooltipmenu a div.programsoverview                                 {display:block; height:25px; text-decoration:none; margin-top:5px;}
+div.ttPrograms div.tooltipmenu a div.programsoverview h5                              {margin:5px 5px 5px 0; padding:1px 0 0 0; font-size:12px; letter-spacing:normal; color:#006699; text-decoration:none; float:right;}
+div.ttPrograms div.tooltipmenu div.fifty-fifty                                       {width:374px; float:left; height:280px; margin:0;}/* was 205 */
+div.ttPrograms div.tooltipmenu div.border-left                                       {border-left:1px solid #00a0b0;}
+div.ttPrograms div.tooltipmenu div.fifty-fifty a div.certification                   {float:left; height:62px; width:375px; display:block; background:transparent url(../images/tooltip_programs_arrow.gif) no-repeat 0 0; overflow:hidden; color:#074677; border-bottom:1px solid #00a0b0;}
+div.ttPrograms div.tooltipmenu div.fifty-fifty a div.certification div.tttext        {height:62px;}
+
+div.ttPrograms div.tooltipmenu div.fifty-fifty a div.cvs                             {float:left; height:65px; width:375px; display:block; background:transparent url(../images/tooltip_programs_arrow.gif) no-repeat 0 0; overflow:hidden; color:#074677; border-bottom:1px solid #00a0b0;}
+div.ttPrograms div.tooltipmenu div.fifty-fifty a div.cvs div.tttext                  {height:65px;}
+
+div.ttPrograms div.tooltipmenu div.fifty-fifty a div.eras                            {float:left; height:75px; width:375px; display:block; background:transparent url(../images/tooltip_programs_arrow.gif) no-repeat 0 0; overflow:hidden; color:#074677; border-bottom:1px solid #00a0b0;}
+div.ttPrograms div.tooltipmenu div.fifty-fifty a div.eras div.tttext                 {height:75px;}
+
+div.ttPrograms div.tooltipmenu div.fifty-fifty a div.j1                              {float:left; height:62px; width:375px; display:block; background:transparent url(../images/tooltip_programs_arrow.gif) no-repeat 0 0; overflow:hidden; color:#074677; border-bottom:1px solid #00a0b0;}
+div.ttPrograms div.tooltipmenu div.fifty-fifty a div.j1 div.tttext                   {height:62px;}
+
+div.ttPrograms div.tooltipmenu div.fifty-fifty a div.eics                            {float:left; height:65px; width:375px; display:block; background:transparent url(../images/tooltip_programs_arrow.gif) no-repeat 0 0; overflow:hidden; color:#074677; border-bottom:1px solid #00a0b0;}
+div.ttPrograms div.tooltipmenu div.fifty-fifty a div.eics div.tttext                 {height:65px;}
+
+div.ttPrograms div.tooltipmenu div.fifty-fifty a div.acculturation                   {float:left; height:75px; width:375px; display:block; background:transparent url(../images/tooltip_programs_arrow.gif) no-repeat 0 0; overflow:hidden; color:#074677; border-bottom:1px solid #00a0b0;}
+div.ttPrograms div.tooltipmenu div.fifty-fifty a div.acculturation div.tttext        {height:75px;}
+
+div.ttPrograms div.tooltipmenu div.fifty-fifty a div.usmle                            {float:left; height:73px; width:375px; display:block; background:transparent url(../images/tooltip_programs_arrow.gif) no-repeat 0 0; overflow:hidden; color:#074677; border-bottom:1px solid #00a0b0;}
+div.ttPrograms div.tooltipmenu div.fifty-fifty a div.usmle div.tttext                 {height:73px;}
+
+div.ttPrograms div.tooltipmenu div.fifty-fifty h5.header                             {margin:0 0 7px 20px; padding:1px 0 0 0; font-size:12px; letter-spacing:normal; color:#006699; text-decoration:none;}
+div.ttPrograms div.tooltipmenu div.fifty-fifty a                                     {color:#006699; text-decoration:none;}
+div.ttPrograms div.tooltipmenu div.fifty-fifty div.tttext                            {margin:-5px 0 0 0; padding:0 5px 0 6px; font-size:11px; line-height:13px; letter-spacing:normal; color:#006699; overflow:hidden;}
+
+/*********************** ONLINE SERVICES TOOLTIP STYLES *************************/
+div.ttOnlineservices                                                             {display:none; z-index:600; margin:-4px 0 0 -577px; position:absolute; background:transparent url("../images/tooltip_onlineservices.png") no-repeat; width:780px; height:410px;}
+div.ttOnlineservices div.ttheader                                                {font-weight:bold; font-size:175%; color:#074677; text-align:center;}
+div.ttOnlineservices div.tooltipmenu                                             {padding:27px 0 0 15px; width:750px; height:328px;}
+div.ttOnlineservices div.tooltipmenu div.fifty-fifty                             {width:374px; float:left; height:370px; margin:0;}
+div.ttOnlineservices div.tooltipmenu div.border-left                             {border-left:1px solid #edc951;}
+
+div.ttOnlineservices div.tooltipmenu div.fifty-fifty a div.iwa                   {height:90px; width:375px; display:block; background:transparent url(../images/tooltip_onlineservices_arrow.gif) no-repeat 0 0; overflow:hidden; color:#074677; border-bottom:1px dashed #edc951;}
+div.ttOnlineservices div.tooltipmenu div.fifty-fifty a div.iwa div.tttext        {height:85px; width:360px;}
+
+div.ttOnlineservices div.tooltipmenu div.fifty-fifty a div.oasis                 {height:100px; width:375px; display:block; background:transparent url(../images/tooltip_onlineservices_arrow.gif) no-repeat 0 0; overflow:hidden; color:#074677; border-bottom:1px dashed #edc951;}
+div.ttOnlineservices div.tooltipmenu a div.oasis div.tttext                      {height:95px;}
+
+div.ttOnlineservices div.tooltipmenu div.fifty-fifty a div.step2cs               {height:42px; width:375px; display:block; background:transparent url(../images/tooltip_onlineservices_arrow.gif) no-repeat 0 0; overflow:hidden; color:#074677; border-bottom:1px dashed #edc951;}
+div.ttOnlineservices div.tooltipmenu div.fifty-fifty a div.step2cs div.tttext    {height:38px;}
+
+div.ttOnlineservices div.tooltipmenu div.fifty-fifty a div.cvsonlineL             {height:40px; width:375px; display:block; background:transparent url(../images/tooltip_onlineservices_arrow.gif) no-repeat 0 0; overflow:hidden; color:#074677; border-bottom:1px dashed #edc951;}
+div.ttOnlineservices div.tooltipmenu div.fifty-fifty a div.cvsonineL div.tttext   {height:35px;}
+
+div.ttOnlineservices div.tooltipmenu div.fifty-fifty a div.ian                    {height:70px; width:375px; display:block; background:transparent url(../images/tooltip_onlineservices_arrow.gif) no-repeat 0 0; overflow:hidden; color:#074677;}
+div.ttOnlineservices div.tooltipmenu div.fifty-fifty a div.ian div.tttext         {height:65px; width:365px;}
+
+div.ttOnlineservices div.tooltipmenu div.fifty-fifty a div.cvsonline             {height:40px; width:375px; display:block; background:transparent url(../images/tooltip_onlineservices_arrow.gif) no-repeat 0 0; overflow:hidden; color:#074677; border-bottom:1px dashed #edc951;}
+div.ttOnlineservices div.tooltipmenu div.fifty-fifty a div.cvsonline div.tttext   {height:40px;}
+
+div.ttOnlineservices div.tooltipmenu div.fifty-fifty a div.evn                    {height:55px; width:375px; display:block; background:transparent url(../images/tooltip_onlineservices_arrow.gif) no-repeat 0 0; overflow:hidden; color:#074677; border-bottom:1px solid #edc951;}
+div.ttOnlineservices div.tooltipmenu div.fifty-fifty a div.evn div.tttext         {height:55px;}
+
+div.ttOnlineservices div.tooltipmenu div.fifty-fifty a div.emswp                 {height:96px; width:375px; display:block; background:transparent url(../images/tooltip_onlineservices_arrow.gif) no-repeat 0 0; overflow:hidden; color:#074677; border-bottom:1px solid #edc951;}
+div.ttOnlineservices div.tooltipmenu div.fifty-fifty a div.emswp div.tttext      {height:80px; width:360px;}
+
+div.ttOnlineservices div.tooltipmenu div.fifty-fifty a div.imed                  {height:40px; width:375px; display:block; background:transparent url(../images/tooltip_onlineservices_arrow.gif) no-repeat 0 0; overflow:hidden; color:#074677; border-bottom:1px dashed #edc951;}
+div.ttOnlineservices div.tooltipmenu div.fifty-fifty a div.imed div.tttext       {height:35px;}
+
+div.ttOnlineservices div.tooltipmenu div.fifty-fifty a div.employment             {height:40px; width:375px; display:block; background:transparent url(../images/tooltip_onlineservices_arrow.gif) no-repeat 0 0; overflow:hidden; color:#074677; border-bottom:1px solid #edc951;}
+div.ttOnlineservices div.tooltipmenu div.fifty-fifty a div.employment div.tttext  {height:35px;}
+
+div.ttOnlineservices div.tooltipmenu div.fifty-fifty a div.overview               {height:26px; width:375px; display:block; background:transparent url(../images/tooltip_onlineservices_arrow.gif) no-repeat 0 0; overflow:hidden; color:#074677;}
+div.ttOnlineservices div.tooltipmenu div.fifty-fifty a div.overview div.tttext    {height:0px;}
+
+div.ttOnlineservices div.tooltipmenu div.fifty-fifty div.h4holder                 {height:22px; width:375px; display:block; background:#f8f0d5;}
+div.ttOnlineservices div.tooltipmenu div.fifty-fifty div.h4holder h4              {margin:0 0 0 22px; padding:1px 0 0 0; font-size:13px; letter-spacing:normal; color:#006699; text-decoration:none;}
+div.ttOnlineservices div.tooltipmenu div.fifty-fifty h5.header                   {margin:2px 0 5px 22px; padding:0; font-size:12px; letter-spacing:normal; color:#006699; text-decoration:none;}
+div.ttOnlineservices div.tooltipmenu div.fifty-fifty a                           {color:#006699; text-decoration:none;}
+div.ttOnlineservices div.tooltipmenu div.fifty-fifty div.tttext                  {margin:-5px 0 0 0; padding:0 0 0 6px; font-size:11px; line-height:15px; letter-spacing:normal; color:#006699; overflow:hidden;}
+
+/*********************** NEWS TOOLTIP STYLES *************************/
+div.ttNews                                                                        {display:none; z-index:600; margin:-4px 0 0 -577px; position:absolute; background:transparent url("../images/tooltip_news.png") no-repeat; width:780px; height:210px;}
+div.ttNews div.tooltipmenu                                                        {padding:27px 10px 10px 15px; width:750px; height:118px;}
+div.ttNews div.tooltipmenu ul.newslist                                            {margin:10px 0 0 0;}
+div.ttNews div.tooltipmenu ul.newslist li                                         {background:transparent url(../images/tooltip_news_arrow.gif) no-repeat 0 0; color:#000; text-decoration:none; font-size:12px; margin:4px 0 0 0; list-style:none;}
+div.ttNews div.tooltipmenu ul.newslist li a.listone                               {text-decoration:underline; margin:0 0 5px 25px; padding:1px 0 0 0; font-weight:bold; color:#006699;}
+div.ttNews div.tooltipmenu ul.newslist li a.listone:hover                         {text-decoration:none;}
+div.ttNews div.tooltipmenu ul.allnews li                                          {list-style:none; font-weight:bold; color:#006699; font-size:12px; margin:12px 0 0 25px;}
+
+/*********************** RESOURCES TOOLTIP STYLES ********************/
+div.ttResources                                                                   {display:none; z-index:600; margin:-4px 0 0 -770px; position:absolute; font-size:12px; background:transparent url("../images/tooltip_resources.png") no-repeat; width:790px; height:240px;} /* margin:0 0 0 1px;  */
+div.ttResources div.tooltipmenu                                                   {padding:27px 0 0 15px; width:750px; height:170px;}
+div.ttResources div.tooltipmenu div.border-left                                   {border-left:1px solid #f29a14;}
+div.ttResources div.tooltipmenu div.thirtythree                                   {width:248px; float:left; height:169px; margin:0;}
+div.ttResources div.tooltipmenu div.thirtythree a                                  {text-decoration:none;}
+div.ttResources div.tooltipmenu div.thirtythree a div.six                         {height:24px; width:248px; display:block; background:transparent url(../images/tooltip_resources_arrow.gif) no-repeat 0 3px; overflow:hidden; color:#074677; border-bottom:1px solid #f29a14;}
+div.ttResources div.tooltipmenu div.thirtythree a h5.header                       {margin:3px 0 0 25px; padding:1px 0 0 0; letter-spacing:normal; color:#006699; text-decoration:none; font-size:12px;}
+div.ttResources div.tooltipmenu div.thirtythree a div.behavior                    {height:43px; width:248px; display:block; background:transparent url(../images/tooltip_resources_arrow.gif) no-repeat 0 3px; overflow:hidden; color:#074677; border-bottom:1px solid #f29a14;}
+div.ttResources div.tooltipmenu div.thirtythree a div.noborderbottom              {border-bottom:none;}
+
+div.ttResources div.tooltipmenu div.annualreport                                  {width:200px; float:left; height:169px; margin:0;}
+div.ttResources div.tooltipmenu div.annualreport div.aplink                       {height:168px; width:200px; display:block; overflow:hidden; color:#074677; border-bottom:1px solid #f29a14;}
+div.ttResources div.tooltipmenu div.annualreport div.aplink a.underline h5           {text-decoration:underline;}
+div.ttResources div.tooltipmenu div.annualreport div.aplink a.underline:hover h5     {text-decoration:none;}
+div.ttResources div.tooltipmenu div.annualreport div.aplink h5                    {margin:0 auto 5px auto; padding:1px 0 0 0; letter-spacing:normal; color:#006699; font-size:12px; text-align:center;}
+div.ttResources div.tooltipmenu div.annualreport div.aplink a img                 {margin:0 0 0 55px; border:1px solid #ccc;}
+div.ttResources div.tooltipmenu div.annualreport div.aplink a h5.imageh5            {margin:-3px auto 3px auto; text-decoration:underline;}
+div.ttResources div.tooltipmenu div.annualreport div.aplink a:hover h5.imageh5       {text-decoration:none;}
+
+div.ttResources div.tooltipmenu div.data                                          {width:300px; float:left; height:169px; margin:0;}
+div.ttResources div.tooltipmenu div.data a                                       {text-decoration:none;}
+div.ttResources div.tooltipmenu div.data a div.imagelink                          {height:168px; width:310px; display:block; overflow:hidden; color:#074677; border-bottom:1px solid #f29a14; background:transparent url("../images/data-thumb.gif") no-repeat 30px 25px;}
+div.ttResources div.tooltipmenu div.data a div.imagelink h5                       {margin:0 auto 5px auto; padding:1px 0 0 0; letter-spacing:normal; color:#006699; text-decoration:none; font-size:12px; text-align:center;}
+div.ttResources div.tooltipmenu div.data a div.imagelink img                      {margin:0 0 0 30px;}
+div.ttResources div.tooltipmenu div.data a div.imagelink div                      {float:right; margin-right:20px;}
+div.ttResources div.tooltipmenu a.roverview                                         {float:right; margin:-6px 0 5px 20px;}
+div.ttResources div.tooltipmenu a.roverview h5                                      {letter-spacing:normal; color:#006699; text-decoration:none; font-size:12px;}
