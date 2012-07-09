@@ -1,20 +1,18 @@
 /********************** HEADER STYLES *************************/
-div.grid_980 div.header_left {width:10px; height:123px; float:left; background:url(../images/header.left.10.jpg) no-repeat; overflow:hidden;}
-div.grid_980 div.header_960 {width:960px; height:123px; float:left; background:url(../images/header.logo.jpg) no-repeat;}
-div.grid_980 div.header_960 div.header-spacer {position:relative; display:block; left:5px; top:13px; border:none; width:530px; height:50px; margin-bottom:3px;}
-div.grid_980 div.header_960 div.searchdiv {width: 100%; position:relative; margin-top:-28px;}
-div.grid_980 div.header_960 div form {position:relative; left:650px; top:12px; border:none; width:300px;}
-div.grid_980 div.header_960 div form input.field {background:url(../images/header-searchfield-bg.jpg) no-repeat; height:20px; width:189px; border:none; top:21px; color:#999;}
-div.grid_980 div.header_960 div form input.searchbutton {background:url(../images/header-search-button.jpg) no-repeat; width:22px; height:20px; border:none; margin:0 0 0 5px; top:21px;}
-div.grid_980 div.header_right {width:10px; height:123px; float:left; background:url(../images/header.right.10.jpg) no-repeat; overflow:hidden;}
+div.grid_980 div.header_980 {width:980px; height:119px; float:left; background:url(../images/header.logo.png) no-repeat; margin:2px 0;}
+div.grid_980 div.header_980 a.header-logo-link {margin:10px 0 0 10px; display:block; width:540px; height:50px; border:1px solid #ff0000;}
+div.grid_980 div.header_980 div.searchdiv {width: 100%; position:relative; margin-top:-28px;}
+div.grid_980 div.header_980 div form {position:relative; left:650px; top:12px; border:none; width:300px;}
+div.grid_980 div.header_980 div form input.field {background:url(../images/header-searchfield-bg.jpg) no-repeat; height:20px; width:189px; border:none; top:21px; color:#999;}
+div.grid_980 div.header_980 div form input.searchbutton {background:url(../images/header-search-button.jpg) no-repeat; width:22px; height:20px; border:none; margin:0 0 0 5px; top:21px;}
 
 /********************** BUTTON & DIV STYLES ********************/
-div.grid_183 {width:183px; height:27px; display:inline; float:left; margin-top:33px; margin-right:5px; margin-bottom:8px; margin-left:4px;} /* was 83px 5px 8px 4px; */
-.about {width:183px; height:27px; display:block; background:url(../images/button-about-183.gif) no-repeat; overflow:hidden;}
-a.programs {width:183px; height:27px; display:block; background:url(../images/button-programs-183.gif) no-repeat; overflow:hidden;}
-a.onlineservices {width:183px; height:27px; display:block; background:url(../images/button-onlineservices-183.gif) no-repeat; overflow:hidden;}
-a.news {width:183px; height:27px; display:block; background:url(../images/button-news-183.gif) no-repeat; overflow:hidden;}
-a.resources {width:183px; height:27px; display:block; background:url(../images/button-resources-183.gif) no-repeat; overflow:hidden;}
+div.grid_183 {width:183px; height:27px; display:inline; float:left; margin-top:19px; margin-right:5px; margin-bottom:8px; margin-left:4px;} 
+.about {width:183px; height:27px; display:block; overflow:hidden;}
+a.programs {width:183px; height:27px; display:block; overflow:hidden;}
+a.onlineservices {width:183px; height:27px; display:block; overflow:hidden;}
+a.news {width:183px; height:27px; display:block; overflow:hidden;}
+a.resources {width:183px; height:27px; display:block; overflow:hidden;}
 
 /*********************** ABOUT TOOLTIP STYLES *************************/  
 div.ttAbout                                                                           {display:none; z-index:600; margin:-4px 0 0 -202px; position:absolute; background:transparent url("../images/tooltip_about.png") no-repeat; width:780px; height:110px;} 

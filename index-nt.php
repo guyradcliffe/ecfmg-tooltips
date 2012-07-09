@@ -2,7 +2,7 @@
   <div class="grid_960"> 
     <div class="grid_640">
       <div class="top_640"></div>
-      <div class="center_640">
+      <div class="center_640" style="position:relative; z-index:-100;">
         <script type="text/javascript"><!--
           $(document).ready(function() {  
             $('#s10').cycle({fx:'fade', speed:1000, timeout:6000});   // for 'Cycle' image rotation

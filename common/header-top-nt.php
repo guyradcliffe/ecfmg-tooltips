@@ -175,7 +175,7 @@ $backtotop="";
   <div class="grid_980">
     <? include ("common/tooltips-nt.php"); ?>    
     <!---->
-    <?= $_SERVER['REQUEST_URI']==="index.html" || $_SERVER['REQUEST_URI']==="index.php" || $_SERVER['PHP_SELF']==="/error404.php" || $_SERVER['REQUEST_URI']==="/" ? '' : '<div class="breadcrumb">' . $breadcrumb . '</div>'; ?>
+    <?= $_SERVER['REQUEST_URI']==="index.html" || $_SERVER['REQUEST_URI']==="index.php" || $_SERVER['REQUEST_URI']==="/index-nt.php" || $_SERVER['PHP_SELF']==="/error404.php" || $_SERVER['REQUEST_URI']==="/" ? '' : '<div class="breadcrumb">' . $breadcrumb . '</div>'; ?>
 
   <?// echo $_SERVER['SERVER_ADDR']."<br />"; ?>
   <?// echo $_SERVER['SERVER_NAME']."<br />"; ?>
