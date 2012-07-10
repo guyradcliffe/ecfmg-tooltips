@@ -1,0 +1,51 @@
+
+
+/************* BUTTON STYLE ************/
+div.marginleftNews {margin-left:6px;}
+
+/************** ABOUT ECFMG TOOLTIP ***********************/
+div.ttAbout div.tooltipmenu {padding:27px 0 0 15px; width:760px;}
+div.ttAbout div.tooltipmenu div.twentyfive-twentyfive a div.aboutoverview {cursor:pointer;}
+div.ttAbout div.tooltipmenu div.twentyfive-twentyfive a div.aboutecfmg h5 {margin:8px 0 auto 20px;}
+div.ttAbout div.tooltipmenu div.twentyfive-twentyfive a div.svmpecfmg {cursor:pointer;} 
+div.ttAbout div.tooltipmenu div.twentyfive-twentyfive a div.svmpecfmg h5.svmp {margin:0 0 auto 20px;}
+div.ttAbout div.tooltipmenu div.twentyfive-twentyfive a div.aboutannualreport {cursor:pointer;} 
+div.ttAbout div.tooltipmenu div.twentyfive-twentyfive a div.organizational {cursor:pointer;} 
+div.ttAbout div.tooltipmenu div.twentyfive-twentyfive a div.trustees {cursor:pointer;} 
+div.ttAbout div.tooltipmenu div.twentyfive-twentyfive a div.seniorstaff {cursor:pointer;} 
+div.ttAbout div.tooltipmenu div.twentyfive-twentyfive a div.history {cursor:pointer;} 
+div.ttAbout div.tooltipmenu div.twentyfive-twentyfive a div.careers {cursor:pointer;} 
+
+/************* PROGRAMS TOOLTIP STYLES ************/
+div.ttPrograms div.tooltipmenu a div.programsoverview {cursor:pointer; margin:-2px 0 0 0;}
+div.ttPrograms div.tooltipmenu div.fifty-fifty a div.certification {cursor:pointer;}
+div.ttPrograms div.tooltipmenu div.fifty-fifty a div.cvs {cursor:pointer;}
+div.ttPrograms div.tooltipmenu div.fifty-fifty a div.eras {cursor:pointer;}
+div.ttPrograms div.tooltipmenu div.fifty-fifty a div.j1 {cursor:pointer;}
+div.ttPrograms div.tooltipmenu div.fifty-fifty a div.eics {cursor:pointer;}
+div.ttPrograms div.tooltipmenu div.fifty-fifty a div.acculturation {cursor:pointer;}
+
+/************* ONLINESERVICES TOOLTIP STYLES ************/
+div.ttOnlineservices div.tooltipmenu div.fifty-fifty a div.iwa {cursor:pointer;}
+div.ttOnlineservices div.tooltipmenu div.fifty-fifty a div.oasis {cursor:pointer;}
+div.ttOnlineservices div.tooltipmenu div.fifty-fifty a div.step2cs {cursor:pointer;}
+div.ttOnlineservices div.tooltipmenu div.fifty-fifty a div.cvsonlineL {cursor:pointer;}
+div.ttOnlineservices div.tooltipmenu div.fifty-fifty a div.evn {cursor:pointer;}
+div.ttOnlineservices div.tooltipmenu div.fifty-fifty a div.ian {cursor:pointer;}
+div.ttOnlineservices div.tooltipmenu div.fifty-fifty a div.emswp {cursor:pointer;}
+div.ttOnlineservices div.tooltipmenu div.fifty-fifty a div.cvsonline {cursor:pointer;}
+div.ttOnlineservices div.tooltipmenu div.fifty-fifty a div.imed {cursor:pointer;}
+div.ttOnlineservices div.tooltipmenu div.fifty-fifty a div.employment {cursor:pointer;}
+div.ttOnlineservices div.tooltipmenu div.fifty-fifty a div.overview {cursor:pointer;}
+
+/************* NEWS TOOLTIP STYLES ************/
+div.ttNews div.tooltipmenu {padding:38px 10px 10px 15px;}
+div.ttNews div.tooltipmenu ul.newslist li a.listone {cursor:pointer;}
+
+/************* RESOURCES TOOLTIP STYLES **************/
+div.ttResources div.tooltipmenu div.thirtythree a div.six {cursor:pointer; text-decoration:none;}
+div.ttResources div.tooltipmenu div.thirtythree a div.six h5.header {margin:3px 0 0 25px;}
+div.ttResources div.tooltipmenu div.thirtythree a div.behavior {cursor:pointer; text-decoration:none;}
+div.ttResources div.tooltipmenu div.thirtythree a div.behavior h5.header {margin:3px 0 0 25px;}
+div.ttResources div.tooltipmenu div.annualreport a div.imagelink {cursor:pointer;}
+div.ttResources div.tooltipmenu div.data a div.imagelink {cursor:pointer; text-decoration:none;}
