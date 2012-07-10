@@ -63,10 +63,27 @@
   <div class="grid_183 about"><a href="/about/index.html" class="about"></a></div>
       <div class="ttAbout">
         <div class="tooltipmenu">
-          <div class="twentyfive-twentyfive">
+          <div class="thirty-three">
             <a href="/about/index.html">
               <div class="aboutoverview">
                 <h5>Overview</h5>
+              </div>
+            </a>
+            <a href="/about/statement-of-values.html">
+              <div class="svmpecfmg">
+                <h5 class="svmp">Statement of Values, Mission, and Purposes</h5>
+              </div> 
+            </a>
+            <a href="/about/annual-report.html">
+              <div class="aboutannualreport">
+                <h5>Annual Report</h5>
+              </div>
+            </a>
+          </div><!-- end thirty-three -->
+          <div class="thirty-three border-left">
+            <a href="/about/organizational-members.html">
+              <div class="organizational">
+                <h5>Organizational Members</h5>
               </div>
             </a>
             <a href="/about/board-of-trustees.html">
@@ -74,35 +91,21 @@
                 <h5>Board of Trustees</h5>
               </div>
             </a>
-          </div><!-- end twentyfive-twentyfive -->
-          <div class="twentyfive-twentyfive border-left">
-            <a href="/about/statement-of-values.html">
-              <div class="svmpecfmg">
-                <h5 class="svmp">Statement of Values, Mission, and Purposes</h5>
-              </div> 
-            </a>
             <a href="/about/senior-staff.html">
               <div class="seniorstaff">
                 <h5>Senior Staff</h5>
               </div> 
             </a> 
-          </div><!-- end twentyfive-twentyfive -->
-          <div class="twentyfive-twentyfive border-left">
-            <a href="/about/annual-report.html">
-              <div class="aboutannualreport">
-                <h5>Annual Report</h5>
+          </div><!-- end thirty-three -->
+          <div class="thirty-three border-left"> 
+            <a href="/about/initiatives-index.html">
+              <div class="initiatives">
+                <h5 class="header">Initiatives</h5>
               </div>
-            </a>
+            </a>           
             <a href="/about/history.html">        
               <div class="history">
                 <h5>History</h5>
-              </div>
-            </a>
-          </div><!-- end twentyfive-twentyfive -->
-          <div class="twentyfive-twentyfive border-left">
-            <a href="/about/organizational-members.html">
-              <div class="organizational">
-                <h5>Organizational Members</h5>
               </div>
             </a>
             <a href="/about/careers.html">
@@ -110,7 +113,7 @@
                 <h5 class="header">Careers at ECFMG</h5>
               </div>
             </a>
-          </div><!-- end twentyfive-twentyfive -->
+          </div><!-- end thirty-three -->            
         </div><!-- end ttmenu -->
       </div><!-- end ttAbout  -->
       <!-- ############################# PROGRAMS TOOLTIP ######################### -->
@@ -355,6 +358,9 @@
           .mouseover(function(){$(this).css("background-color","#c9e5e8")})
           .mouseout(function(){$(this).css("background-color","transparent")})
 	      $('.seniorstaff')
+          .mouseover(function(){$(this).css("background-color","#c9e5e8")})
+          .mouseout(function(){$(this).css("background-color","transparent")})
+        $('.initiatives')
           .mouseover(function(){$(this).css("background-color","#c9e5e8")})
           .mouseout(function(){$(this).css("background-color","transparent")})
 	      $('.history')
