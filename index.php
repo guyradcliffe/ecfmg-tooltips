@@ -1,4 +1,4 @@
-<? include ("common/header-top-nt.php"); ?>
+<? include ("common/header-top.php"); ?>
   <div class="grid_960"> 
     <div class="grid_640">
       <div class="top_640"></div>

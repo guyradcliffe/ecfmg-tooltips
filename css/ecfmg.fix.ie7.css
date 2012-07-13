@@ -1,0 +1,83 @@
+/********************** GENERAL STYLES ************************/
+.spacingIMED {margin-top:7px;}
+.spacingResidency {margin-top:8px;}
+a.externaltwo {background:none;} /* created to be changed in IE 7 */
+span.externalie7 {background:url(../images/icon.external.link.gif) 0px 0px no-repeat; width:25px; height:15px; border:1px solid #ff0000;}
+div.googlesearch {width:100%; height:100%; padding:0; margin:0;}
+.cse .gsc-control-cse, .gsc-control-cse {padding: 0%;}
+a {cursor:pointer;}
+select.echodropdown {font-size:12px;}
+
+/********* for H3 pop up in ERAS *******/
+h3.ie-popup {font-size:14px;}
+
+/********************** Home page rotation images ********************/
+div.grid_980 div.grid_960 div.grid_640 div.center_640 div#s10 img.notvisible {display:none; z-index:5;}
+div.grid_980 div.grid_960 div.grid_640 div.center_640 div#s10 img.visible {display:block; z-index:6;}
+
+/******************* ROTATOR STYLES ********************/
+div.slides {height:429px;}
+div.slides div {height:434px;}
+
+/***************** GRID 660 STYLES **************/
+div.grid_980 div.grid_660 {margin-right:10px;}
+div.grid_980 div.grid_660 div.div_660 {margin:0 0 0 14px; padding-right:8px;}
+/*div.grid_980 div.grid_660 div.titlecenter {width:640px;}*/
+div.grid_980 div.grid_660 div.div_660 h4 a {color:#006699; text-decoration:none;}
+div.grid_980 div.grid_660 div.div_660 h4 a:hover {color:#8dbcdf;}
+div.grid_980 div.grid_660 div.div_660 ol li {margin-left:40px;}
+
+/**************** ECHO ********************/
+div.grid_980 div.grid_660 div.div_660 div.echo-feedback form div.formrow div.certified {width:220px;}
+
+/******************* bottom div Initiatives Right Column ***********/
+div.grid_980 div.grid_960 div.grid_310 div.button-initiatives a div.provision {cursor:pointer;}
+/****************** GENERAL RIGHT COLUMN BUTTON STYLE ***************/
+div.grid_980 div.grid_960 div.grid_310 a img.imgportal {margin:0; width:310px; height:75px;}
+div.grid_980 div.grid_960 div.grid_310 a img.epic {margin:-3px 0 0 0; width:310px; height:75px;}
+div.grid_980 div.grid_960 div.grid_310 img.initiativestop {margin:-3px 0 0 0;}
+div.grid_980 div.grid_960 div.grid_310 a img.contactus {margin:-3px 0 0 0; width:310px; height:75px;}
+div.grid_980 div.grid_960 div.grid_310 a img.faimer {margin:-3px 0 0 0; width:310px; height:80px;}
+
+div.grid_980 div.grid_960 div.grid_310 a img {margin:-3px 0 0 0;}
+div.grid_980 div.grid_960 div.grid_310 div.button-initiatives {display:block; width:310px; height:137px; margin:0; background:url(../images/right.initiatives.310-ie7.jpg) 0 0; margin:-3px 0 0 0;}
+div.grid_980 div.grid_310 div.center_310 div.right-menu {cursor:pointer;}
+div.grid_980 div.grid_960 div.grid_310 div.center_310_home div.button-initiatives_bottom {height:15px; background:url(../images/right.initiatives.bottom.ie.300.jpg) no-repeat; margin:0 5px 1px 5px;} /* bottom margin needs a negative margin for some reason ?? */
+
+/*********************** online services index page sidebar **************************/
+div.grid_980 div.grid_310 div.online-center_310 div.listdivider div.text ul li.indentroom {text-indent:17px;}
+div.grid_980 div.grid_310 div.online-center_310 div.listdivider div.text ul li.indentline {text-indent:.125em;}
+
+/* FEES TABLE */
+div.grid_980 table.feestable tr.shade td {background-color: #EDF3F8;}
+div.grid_980 table.feestable tr.toprow td {background-color: #006699; color: #fff;}
+
+/* TABLE  padding:3px; */
+table#table0 tr.clickable th {background:#006699; padding:3px;}
+/* ECHO Team About Contributors Table */
+table#table0 tr.shade td {background:#c5c5c5; padding:10px;}
+
+/***************** MEDICALESE TABLE *******************/
+table.medicalese {border-top:none;}
+table.medicalese tr th {background:#006699; padding:0px 3px 3px 10px; border-top:none; /*border-top:1px solid #ccc;*/}
+table.medicalese tr.alt td {background:#EDF3F8; padding:3px 3px 3px 10px;}
+
+/* EVSP TABLES */
+table.subspecialty tr th {border:1px solid #000;}
+table.subspecialty tr td {border:1px solid #000;}
+table.subspecialty tr.yellowrow td {background:#ffffcc;}
+
+div.footer960 {margin:-5px 0 0 0px;}
+
+/************** Tooltips ****************/
+div.grid_183 {margin-top:18px;}
+/************** ABOUT ECFMG TOOLTIP ***********************/
+div.ttAbout div.tooltipmenu div.thirty-three a div.svmpecfmg h5.svmp {margin:0 0 auto 20px;}
+/************* PROGRAMS TOOLTIP STYLES ************/
+div.ttPrograms div.tooltipmenu a div.programsoverview {margin:-2px 0 0 0;}
+/************* NEWS TOOLTIP STYLES ************/
+div.ttNews div.tooltipmenu {padding:38px 10px 10px 15px;}
+
+/******************ERAS At a Glance**********************/
+
+div.atglance {text-decoration:none;}
