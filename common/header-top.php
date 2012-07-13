@@ -173,7 +173,7 @@ $backtotop="";
   </head>
   <body>
   <div class="grid_980">
-    <? include ("common/tooltips-nt.php"); ?>    
+    <? include ("common/tooltips.php"); ?>    
     <!---->
     <?= $_SERVER['REQUEST_URI']==="index.html" || $_SERVER['REQUEST_URI']==="index.php" || $_SERVER['PHP_SELF']==="/error404.php" || $_SERVER['REQUEST_URI']==="/" ? '' : '<div class="breadcrumb">' . $breadcrumb . '</div>'; ?>
 

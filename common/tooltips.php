@@ -1,71 +1,89 @@
-<div class="header_left"></div>
-    <div class="header_960">
-      <div class="header-spacer"></div>
-      <div id="cse-search-form" class="searchdiv">&nbsp;</div>
-              
-      <script src="http://www.google.com/jsapi" type="text/javascript"></script>
-      <script type="text/javascript"> 
-        google.load('search', '1', {language : 'en'});
-        google.setOnLoadCallback(function() {
-          var customSearchControl = new google.search.CustomSearchControl(
-            '014771394583626632158:blyxkmfvpn0');
-      
-          customSearchControl.setResultSetSize(google.search.Search.FILTERED_CSE_RESULTSET);
-          var options = new google.search.DrawOptions();
-          options.enableSearchboxOnly("http://www.ecfmg.org/search-results.html");
-          customSearchControl.draw('cse-search-form', options);
-        }, true);
-      </script>
-      
-      <link rel="stylesheet" href="http://www.google.com/cse/style/look/default.css" type="text/css" />
-      <link rel="stylesheet" href="http://<? if ($_SERVER['SERVER_ADDR']=='10.1.3.136') {echo 'test.ecfmg.org' ;} else {echo 'www.ecfmg.org' ;} ?>/css/ecfmg.tooltips.css" type="text/css" />
-      
-      <?php if(strpos($_SERVER['REQUEST_URI'], "2012ib/")){ ?>
-      <!--[if IE 8]><link rel="stylesheet" href="2012ib/css2012ib/2012ib.fix.ie8.css" type="text/css" /><![endif]-->
-      <!--[if IE 7]><link rel="stylesheet" href="2012ib/css2012ib/2012ib.fix.ie7.css" type="text/css" /><![endif]-->
-      <?php } elseif(strpos($_SERVER['REQUEST_URI'], "2013ib/")) { ?>
-      <!--[if IE 8]><link rel="stylesheet" href="2013ib/css2013ib/2013ib.fix.ie8.css" type="text/css" /><![endif]-->
-      <!--[if IE 7]><link rel="stylesheet" href="2013ib/css2013ib/2013ib.fix.ie7.css" type="text/css" /><![endif]-->
-      <?php } else { ?>
-      <!--[if IE 8]><link rel="stylesheet" href="css/ecfmg.fix.ie8.css" type="text/css" /><![endif]-->
-      <!--[if IE 7]><link rel="stylesheet" href="css/ecfmg.fix.ie7.css" type="text/css" /><![endif]-->
-      <?php } ?>
-      
-      <style type="text/css">
-        input.gsc-input {
-          border-color: #BCCDF0;
-        }
-        input.gsc-search-button {
-          border-color: #666666;
-          background-color: #CECECE;
-        }
-        .gsc-input input.gsc-input {
-          background: none repeat scroll 0% 0% white !important;
-        }
-      </style>
-      <!--[if IE 7]>
-      <style>
-      div.header_960 td.gsc-input {border:0; margin-right:2px; padding-right:5px;}
-      div.header_960 input.gsc-input {float:left; margin-left:0px; margin-right:2px; padding-right:0;}
-      div.header_960 input.gsc-search-button {width:58px; height:20px; padding-left:0px; padding-right:0px; margin-left:4px; margin-right:0; font-size:12px;}
-      </style>
-      <![endif]-->
-      <!--[if IE 8]>
-      <style>
-      div.header_960 td.gsc-input {border:0; margin-right:0; padding-right:0;}
-      div.header_960 input.gsc-input {float:right; margin-left:0px; margin-right:2px; padding-right:0;}
-      div.header_960 input.gsc-search-button {width:58px; height:20px; padding-left:0px; padding-right:0px; margin-left:0; margin-right:0;}
-      </style>
-      <![endif]-->
-      <div class="grid_183 about">
-        <a href="/about/index.html" class="about"></a>
-      </div>
+<div class="header_980">
+  <a href="/"><div class="header-logo-link"></div></a>
+  <div id="cse-search-form" class="searchdiv">&nbsp;</div>
+  <div class="clear"></div>
+          
+  <script src="http://www.google.com/jsapi" type="text/javascript"></script>
+  <script type="text/javascript"> 
+    google.load('search', '1', {language : 'en'});
+    google.setOnLoadCallback(function() {
+      var customSearchControl = new google.search.CustomSearchControl(
+        '014771394583626632158:blyxkmfvpn0');
+  
+      customSearchControl.setResultSetSize(google.search.Search.FILTERED_CSE_RESULTSET);
+      var options = new google.search.DrawOptions();
+      options.enableSearchboxOnly("http://www.ecfmg.org/search-results.html");
+      customSearchControl.draw('cse-search-form', options);
+    }, true);
+  </script>
+  
+  <link rel="stylesheet" href="http://www.google.com/cse/style/look/default.css" type="text/css" />
+  <link rel="stylesheet" href="http://<? if ($_SERVER['SERVER_ADDR']=='10.1.3.136') {echo 'test.ecfmg.org' ;} else {echo 'www.ecfmg.org' ;} ?>/css/ecfmg.tooltips.css" type="text/css" />
+  
+  <?php if(strpos($_SERVER['REQUEST_URI'], "2012ib/")){ ?>
+  <!--[if IE 8]><link rel="stylesheet" href="2012ib/css2012ib/2012ib.fix.ie8.css" type="text/css" /><![endif]-->
+  <!--[if IE 7]><link rel="stylesheet" href="2012ib/css2012ib/2012ib.fix.ie7.css" type="text/css" /><![endif]-->
+  <?php } elseif(strpos($_SERVER['REQUEST_URI'], "2013ib/")) { ?>
+  <!--[if IE 8]><link rel="stylesheet" href="2012ib/css2012ib/2012ib.fix.ie8.css" type="text/css" /><![endif]-->
+  <!--[if IE 7]><link rel="stylesheet" href="2012ib/css2012ib/2012ib.fix.ie7.css" type="text/css" /><![endif]-->
+  <?php } else { ?>
+  <!--[if IE 8]><link rel="stylesheet" href="css/ecfmg.fix.ie8.css" type="text/css" /><![endif]-->
+  <!--[if IE 7]><link rel="stylesheet" href="css/ecfmg.fix.ie7.css" type="text/css" /><![endif]-->
+  <?php } ?>
+  
+  <style type="text/css">
+    input.gsc-input {
+      border-color: #BCCDF0;
+    }
+    input.gsc-search-button {
+      border-color: #666666;
+      background-color: #CECECE;
+      font-size:12px; padding:0px 3px 5px 3px;
+    }
+    .gsc-input input.gsc-input {
+      background: none repeat scroll 0% 0% white !important;
+    }
+    div.header_980 td.gsc-clear-button {display:none;}
+  </style>
+  <!--[if IE 7]>
+  <style>
+  div.header_980 td.gsc-input {border:0; margin-right:2px; padding-right:5px;}
+  div.header_980 input.gsc-input {float:left; margin-left:0px; margin-right:2px; padding-right:0;}
+  div.header_980 input.gsc-search-button {width:58px; height:20px; padding-left:0px; padding-right:0px; margin-left:4px; margin-right:0; font-size:12px;}
+  </style>
+  <![endif]-->
+  <!--[if IE 8]>
+  <style>
+  div.header_980 td.gsc-input {border:0; margin-right:0; padding-right:0;}
+  div.header_980 input.gsc-input {float:right; margin-left:0px; margin-right:2px; padding-right:0;}
+  div.header_980 input.gsc-search-button {width:58px; height:20px; padding-left:0px; padding-right:0px; margin-left:0; margin-right:0;}
+  </style>
+  <![endif]-->
+  <div style="width:10px; height:27px; margin-top:19px; float:left;"></div><!-- pushes menu divs to the right 10px -->
+  <div class="grid_183 about"><a href="/about/index.html" class="about"></a></div>
       <div class="ttAbout">
         <div class="tooltipmenu">
-          <div class="twentyfive-twentyfive">
+          <div class="thirty-three">
             <a href="/about/index.html">
               <div class="aboutoverview">
                 <h5>Overview</h5>
+              </div>
+            </a>
+            <a href="/about/statement-of-values.html">
+              <div class="svmpecfmg">
+                <h5 class="svmp">Statement of Values, Mission, and Purposes</h5>
+              </div> 
+            </a>
+            <a href="/about/annual-report.html">
+              <div class="aboutannualreport">
+                <h5>Annual Report</h5>
+              </div>
+            </a>
+          </div><!-- end thirty-three -->
+          <div class="thirty-three border-left">
+            <a href="/about/organizational-members.html">
+              <div class="organizational">
+                <h5>Organizational Members</h5>
               </div>
             </a>
             <a href="/about/board-of-trustees.html">
@@ -73,35 +91,21 @@
                 <h5>Board of Trustees</h5>
               </div>
             </a>
-          </div><!-- end twentyfive-twentyfive -->
-          <div class="twentyfive-twentyfive border-left">
-            <a href="/about/statement-of-values.html">
-              <div class="svmpecfmg">
-                <h5 class="svmp">Statement of Values, Mission, and Purposes</h5>
-              </div> 
-            </a>
             <a href="/about/senior-staff.html">
               <div class="seniorstaff">
                 <h5>Senior Staff</h5>
               </div> 
             </a> 
-          </div><!-- end twentyfive-twentyfive -->
-          <div class="twentyfive-twentyfive border-left">
-            <a href="/about/annual-report.html">
-              <div class="aboutannualreport">
-                <h5>Annual Report</h5>
+          </div><!-- end thirty-three -->
+          <div class="thirty-three border-left"> 
+            <a href="/about/initiatives-index.html">
+              <div class="initiatives">
+                <h5 class="header">Initiatives</h5>
               </div>
-            </a>
+            </a>           
             <a href="/about/history.html">        
               <div class="history">
                 <h5>History</h5>
-              </div>
-            </a>
-          </div><!-- end twentyfive-twentyfive -->
-          <div class="twentyfive-twentyfive border-left">
-            <a href="/about/organizational-members.html">
-              <div class="organizational">
-                <h5>Organizational Members</h5>
               </div>
             </a>
             <a href="/about/careers.html">
@@ -109,7 +113,7 @@
                 <h5 class="header">Careers at ECFMG</h5>
               </div>
             </a>
-          </div><!-- end twentyfive-twentyfive -->
+          </div><!-- end thirty-three -->            
         </div><!-- end ttmenu -->
       </div><!-- end ttAbout  -->
       <!-- ############################# PROGRAMS TOOLTIP ######################### -->
@@ -135,20 +139,14 @@
                 <div class="tttext">Assisting IMGs who use the Electronic Residency Application Service (ERAS) to apply for residency positions in U.S. graduate medical education programs</div>
               </div>
             </a>
-            <a href="/programs/performance-data-provision.html">
-              <div class="usmle">
-                <h5 class="header">Provision of USMLE Performance Data</h5>
-                <div class="tttext">Providing eligible international medical schools with data on the performance of their students and graduates who apply to ECFMG for USMLE Step 1, Step 2 CK, and Step 2 CS</div>
-              </div>
-            </a>
-          </div><!-- end fifty-fifty -->
-          <div class="fifty-fifty border-left">
             <a href="/evsp/index.html">
-              <div class="j1">
+              <div class="evsp">
                 <h5 class="header">Exchange Visitor Sponsorship Program (J-1 visa)</h5>
                 <div class="tttext">Sponsoring physicians on J-1 Exchange Visitor visas and ensuring that Exchange Visitors and their host institutions meet the federal requirements for participation in the Exchange Visitor Program</div>
               </div>
             </a>
+          </div><!-- end fifty-fifty -->
+          <div class="fifty-fifty border-left">          
             <a href="/eics/index.html">          
               <div class="eics">
                 <h5 class="header">ECFMG International Credentials Services</h5>
@@ -156,13 +154,21 @@
               </div>
             </a>
             <a href="/echo/index.html">
-              <div class="acculturation">
+              <div class="echo">
                 <h5 class="header">ECFMG Certificate Holders Office (ECHO)</h5>
                 <div class="tttext">Providing support and service to ECFMG-certified physicians as they plan their medical careers</div>
               </div>
             </a>
+             <a href="/programs/performance-data-provision.html">
+              <div class="usmle">
+                <h5 class="header">Provision of USMLE Performance Data</h5>
+                <div class="tttext">Providing eligible international medical schools with data on the performance of their students and graduates who apply to ECFMG for USMLE Step 1, Step 2 CK, and Step 2 CS</div>
+              </div>
+            </a>
             <a href="/programs/index.html">
-              <div class="programsoverview"><h5>Programs Overview &raquo;</h5></div>
+              <div class="programsoverview">
+                <h5 class="header">Programs Overview &raquo;</h5>
+              </div>
             </a>
           </div><!-- end fifty-fifty -->
           <!--<a href="/programs/index.html"><div class="programsoverview"><h5>Programs Overview &raquo;</h5></div></a>-->
@@ -318,7 +324,11 @@
               </div>
             </a>
           </div><!-- end data -->
-          <a href="resources/index.html" class="roverview"><h5>Resources Overview &raquo;</h5></a>
+          <a href="resources/index.html" style="text-decoration:none;"><!-- style removes anchor link underline in safari -->
+            <div class="roverview">
+              <h5 class="header">Resources Overview &raquo;</h5>
+            </div>
+          </a>
         </div><!-- end tooltipmenu div -->
       </div>
     </div><!-- end header_960 -->
@@ -356,6 +366,9 @@
 	      $('.seniorstaff')
           .mouseover(function(){$(this).css("background-color","#c9e5e8")})
           .mouseout(function(){$(this).css("background-color","transparent")})
+        $('.initiatives')
+          .mouseover(function(){$(this).css("background-color","#c9e5e8")})
+          .mouseout(function(){$(this).css("background-color","transparent")})
 	      $('.history')
           .mouseover(function(){$(this).css("background-color","#c9e5e8")})
           .mouseout(function(){$(this).css("background-color","transparent")})
@@ -373,16 +386,19 @@
         $('.eras')
           .mouseover(function(){$(this).css("background-color","#c9e5e8")})
           .mouseout(function(){$(this).css("background-color","transparent")})
-        $('.j1')
+        $('.evsp')
           .mouseover(function(){$(this).css("background-color","#c9e5e8")})
           .mouseout(function(){$(this).css("background-color","transparent")})
         $('.eics')
           .mouseover(function(){$(this).css("background-color","#c9e5e8")})
           .mouseout(function(){$(this).css("background-color","transparent")})
-        $('.acculturation')
+        $('.echo')
           .mouseover(function(){$(this).css("background-color","#c9e5e8")})
           .mouseout(function(){$(this).css("background-color","transparent")})
         $('.usmle')
+          .mouseover(function(){$(this).css("background-color","#c9e5e8")})
+          .mouseout(function(){$(this).css("background-color","transparent")})
+        $('.programsoverview')
           .mouseover(function(){$(this).css("background-color","#c9e5e8")})
           .mouseout(function(){$(this).css("background-color","transparent")})
           
@@ -431,5 +447,8 @@
         $('.imagelink')
           .mouseover(function(){$(this).css("background-color","#fde9ca")})
           .mouseout(function(){$(this).css("background-color","transparent")})  
+        $('.roverview')
+          .mouseover(function(){$(this).css("background-color","#fde9ca")})
+          .mouseout(function(){$(this).css("background-color","transparent")}) 
       });
     //done hiding code--></script>
