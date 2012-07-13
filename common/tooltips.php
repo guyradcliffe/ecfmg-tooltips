@@ -140,7 +140,7 @@
               </div>
             </a>
             <a href="/evsp/index.html">
-              <div class="j1">
+              <div class="evsp">
                 <h5 class="header">Exchange Visitor Sponsorship Program (J-1 visa)</h5>
                 <div class="tttext">Sponsoring physicians on J-1 Exchange Visitor visas and ensuring that Exchange Visitors and their host institutions meet the federal requirements for participation in the Exchange Visitor Program</div>
               </div>
@@ -166,7 +166,9 @@
               </div>
             </a>
             <a href="/programs/index.html">
-              <div class="programsoverview"><h5>Programs Overview &raquo;</h5></div>
+              <div class="programsoverview">
+                <h5 class="header">Programs Overview &raquo;</h5>
+              </div>
             </a>
           </div><!-- end fifty-fifty -->
           <!--<a href="/programs/index.html"><div class="programsoverview"><h5>Programs Overview &raquo;</h5></div></a>-->
@@ -322,7 +324,11 @@
               </div>
             </a>
           </div><!-- end data -->
-          <a href="resources/index.html" class="roverview"><h5>Resources Overview &raquo;</h5></a>
+          <a href="resources/index.html" style="text-decoration:none;"><!-- style removes anchor link underline in safari -->
+            <div class="roverview">
+              <h5 class="header">Resources Overview &raquo;</h5>
+            </div>
+          </a>
         </div><!-- end tooltipmenu div -->
       </div>
     </div><!-- end header_960 -->
@@ -380,7 +386,7 @@
         $('.eras')
           .mouseover(function(){$(this).css("background-color","#c9e5e8")})
           .mouseout(function(){$(this).css("background-color","transparent")})
-        $('.j1')
+        $('.evsp')
           .mouseover(function(){$(this).css("background-color","#c9e5e8")})
           .mouseout(function(){$(this).css("background-color","transparent")})
         $('.eics')
@@ -390,6 +396,9 @@
           .mouseover(function(){$(this).css("background-color","#c9e5e8")})
           .mouseout(function(){$(this).css("background-color","transparent")})
         $('.usmle')
+          .mouseover(function(){$(this).css("background-color","#c9e5e8")})
+          .mouseout(function(){$(this).css("background-color","transparent")})
+        $('.programsoverview')
           .mouseover(function(){$(this).css("background-color","#c9e5e8")})
           .mouseout(function(){$(this).css("background-color","transparent")})
           
@@ -438,5 +447,8 @@
         $('.imagelink')
           .mouseover(function(){$(this).css("background-color","#fde9ca")})
           .mouseout(function(){$(this).css("background-color","transparent")})  
+        $('.roverview')
+          .mouseover(function(){$(this).css("background-color","#fde9ca")})
+          .mouseout(function(){$(this).css("background-color","transparent")}) 
       });
     //done hiding code--></script>

@@ -1,0 +1,31 @@
+/********************** GENERAL STYLES ************************/
+.spacingIMED {margin-top:7px;}
+.spacingResidency {margin-top:8px;}
+
+/******************* ROTATOR STYLES ********************/
+div.slides {height:432px;}
+div.slides div {height:438px;}
+
+/********************** Home page rotation images ********************/
+div.grid_980 div.grid_960 div.grid_640 div.center_640 div#s10 img.notvisible {display:none; z-index:5;}
+div.grid_980 div.grid_960 div.grid_640 div.center_640 div#s10 img.visible {display:block; z-index:6;}
+
+/***************** GRID 660 STYLES **************/
+div.grid_980 div.grid_660 {margin-right:10px;}
+div.grid_980 div.grid_660 div.div_660 {margin:0 0 0 14px; padding-right:8px;}
+div.grid_980 div.grid_660 div.div_660 h4 a {color:#006699; text-decoration:none;}
+div.grid_980 div.grid_660 div.div_660 h4 a:hover {color:#8dbcdf;}
+
+div.grid_980 div.grid_960 div.grid_310 img {margin:-3px 0 0 0;}/* -5px 0 0  */
+div.grid_980 div.grid_960 div.grid_310 a {text-decoration:none;}
+div.grid_980 div.grid_960 div.grid_310 a img {margin:-3px 0 0 0;}
+
+div.grid_980 div.grid_310 div.online-center_310 div.listdivider div.text ul li.indentroom {text-indent:17px;}
+
+/******************* bottom div Initiatives Right Column ***********/
+div.grid_980 div.grid_960 div.grid_310 div.button-initiatives {display:block; width:310px; height:142px; margin:0; background:url(../images/right.initiatives.310-ie8.jpg) 0 0; margin:-4px 0 0 0;}
+div.grid_980 div.grid_960 div.grid_310 div.center_310_home img.button_bottom {margin:0 5px -2px 5px;}/* bottom button needs a negative margin-bottom for some reason??? */
+div.footer960 {margin:-5px 0 0 0px;}
+
+/************** HEADER GRID FOR TOOLTIPS ****************/
+div.grid_183 {margin-top:18px;}
