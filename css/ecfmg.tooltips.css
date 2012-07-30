@@ -15,9 +15,9 @@ a.news {width:183px; height:27px; display:block; overflow:hidden;}
 a.resources {width:183px; height:27px; display:block; overflow:hidden;}
 
 /*********************** ABOUT TOOLTIP STYLES *************************/  
-div.ttAbout                                                                           {display:none; z-index:600; margin:-4px 0 0 -202px; position:absolute; background:transparent url("../images/tooltip_about.png") no-repeat; width:591px; height:154px;} 
-div.ttAbout div.tooltipmenu                                                           {padding:27px 0 0 15px; width:750px; height:70px;}
-div.ttAbout div.tooltipmenu div.border-left                                           {border-left:1px solid #006699;}
+div.ttAbout                                                                   {display:none; z-index:600; margin:-4px 0 0 -202px; position:absolute; background:transparent url("../images/tooltip_about.png") no-repeat; width:591px; height:154px;} 
+div.ttAbout div.tooltipmenu                                                   {padding:27px 0 0 15px; width:600px; height:70px;}
+div.ttAbout div.tooltipmenu div.border-left                                   {border-left:1px solid #006699;}
 div.ttAbout div.tooltipmenu div.thirty-three                                 {width:187px; height:105 px; float:left; margin:0;}
 div.ttAbout div.tooltipmenu div.thirty-three a                               {color:#006699; text-decoration:none;}
 div.ttAbout div.tooltipmenu div.thirty-three a div.aboutoverview             {height:34px; width:187px; display:block; background:transparent url(../images/tooltip_arrow.gif) no-repeat 0 8px; overflow:hidden; color:#074677; border-bottom:1px solid #006699;}
@@ -53,13 +53,8 @@ div.ttPrograms div.tooltipmenu div.fifty-fifty a div.cvs div.tttext             
 div.ttPrograms div.tooltipmenu div.fifty-fifty a div.eras                            {float:left; height:73px; width:375px; display:block; background:transparent url(../images/tooltip_programs_arrow.gif) no-repeat 0 0; overflow:hidden; color:#074677; border-bottom:1px solid #00a0b0;}
 div.ttPrograms div.tooltipmenu div.fifty-fifty a div.eras div.tttext                 {height:73px;}
 
-<<<<<<< HEAD:css/ecfmg.tooltips.css
-div.ttPrograms div.tooltipmenu div.fifty-fifty a div.j1                              {float:left; height:65px; width:375px; display:block; background:transparent url(../images/tooltip_programs_arrow.gif) no-repeat 0 0; overflow:hidden; color:#074677; border-bottom:1px solid #00a0b0;}
-div.ttPrograms div.tooltipmenu div.fifty-fifty a div.j1 div.tttext                   {height:65px;}
-=======
 div.ttPrograms div.tooltipmenu div.fifty-fifty a div.evsp                              {float:left; height:65px; width:375px; display:block; background:transparent url(../images/tooltip_programs_arrow.gif) no-repeat 0 0; overflow:hidden; color:#074677; border-bottom:1px solid #00a0b0;}
 div.ttPrograms div.tooltipmenu div.fifty-fifty a div.evsp div.tttext                   {height:65px;}
->>>>>>> 04ecfmg-tooltips:css/ecfmg.tooltips.css
 
 div.ttPrograms div.tooltipmenu div.fifty-fifty a div.eics                            {float:left; height:65px; width:375px; display:block; background:transparent url(../images/tooltip_programs_arrow.gif) no-repeat 0 0; overflow:hidden; color:#074677; border-bottom:1px solid #00a0b0;}
 div.ttPrograms div.tooltipmenu div.fifty-fifty a div.eics div.tttext                 {height:65px;}
