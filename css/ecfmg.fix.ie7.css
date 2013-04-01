@@ -52,6 +52,11 @@ div.grid_980 div.grid_310 div.online-center_310 div.listdivider div.text ul li.i
 div.grid_980 table.feestable tr.shade td {background-color: #EDF3F8;}
 div.grid_980 table.feestable tr.toprow td {background-color: #006699; color: #fff;}
 
+
+/* ECHO Medical Specialties Table */
+div.grid_980 table#echo-med-orgs tr.shade td {background-color: #EDF3F8;}
+
+
 /* TABLE  padding:3px; */
 table#table0 tr.clickable th {background:#006699; padding:3px;}
 /* ECHO Team About Contributors Table */
@@ -71,10 +76,80 @@ div.footer960 {margin:-5px 0 0 0px;}
 
 /************** Tooltips ****************/
 div.grid_183 {margin-top:18px;}
-/************** ABOUT ECFMG TOOLTIP ***********************/
-div.ttAbout div.tooltipmenu div.thirty-three a div.svmpecfmg h5.svmp {margin:0 0 auto 20px;}
+
+/****************** About Tooltip Styles ****************/
+div.ttAbout div.tooltipmenu div.thirty-three a div.aboutoverview h5 {text-decoration:underline;}
+div.ttAbout div.tooltipmenu div.thirty-three a div.aboutoverview h5:hover {text-decoration:none;}
+div.ttAbout div.tooltipmenu div.thirty-three a div.svmpecfmg h5.svmp {text-decoration:underline; margin:0 0 auto 20px;}
+div.ttAbout div.tooltipmenu div.thirty-three a div.svmpecfmg h5.svmp:hover {text-decoration:none;}
+div.ttAbout div.tooltipmenu div.thirty-three a div.organizational h5 {text-decoration:underline;}
+div.ttAbout div.tooltipmenu div.thirty-three a div.organizational h5:hover {text-decoration:none;}
+div.ttAbout div.tooltipmenu div.thirty-three a div.trustees h5 {text-decoration:underline;}
+div.ttAbout div.tooltipmenu div.thirty-three a div.trustees h5:hover {text-decoration:none;}
+div.ttAbout div.tooltipmenu div.thirty-three a div.seniorstaff h5 {text-decoration:underline;}
+div.ttAbout div.tooltipmenu div.thirty-three a div.seniorstaff h5:hover {text-decoration:none;}
+div.ttAbout div.tooltipmenu div.thirty-three a div.initiatives h5 {text-decoration:underline;}
+div.ttAbout div.tooltipmenu div.thirty-three a div.initiatives h5:hover {text-decoration:none;}
+div.ttAbout div.tooltipmenu div.thirty-three a div.aboutannualreport h5 {text-decoration:underline;}
+div.ttAbout div.tooltipmenu div.thirty-three a div.aboutannualreport h5:hover {text-decoration:none;}
+div.ttAbout div.tooltipmenu div.thirty-three a div.history h5 {text-decoration:underline;}
+div.ttAbout div.tooltipmenu div.thirty-three a div.history h5:hover {text-decoration:none;}
+div.ttAbout div.tooltipmenu div.thirty-three a div.careers h5 {text-decoration:underline;}
+div.ttAbout div.tooltipmenu div.thirty-three a div.careers h5:hover {text-decoration:none;}
+
 /************* PROGRAMS TOOLTIP STYLES ************/
 div.ttPrograms div.tooltipmenu a div.programsoverview {margin:-2px 0 0 0;}
+div.ttPrograms div.tooltipmenu a div.programsoverview h5.header {text-decoration:underline;}
+div.ttPrograms div.tooltipmenu a div.programsoverview h5.header:hover {text-decoration:none;}
+div.ttPrograms div.tooltipmenu a div.certification h5.header {text-decoration:underline;}
+div.ttPrograms div.tooltipmenu a div.certification h5.header:hover {text-decoration:none;}
+div.ttPrograms div.tooltipmenu a div.cvs h5.header {text-decoration:underline;}
+div.ttPrograms div.tooltipmenu a div.cvs h5.header:hover {text-decoration:none;}
+div.ttPrograms div.tooltipmenu a div.evsp h5.header {text-decoration:underline;}
+div.ttPrograms div.tooltipmenu a div.evsp h5.header:hover {text-decoration:none;}
+div.ttPrograms div.tooltipmenu a div.eics h5.header {text-decoration:underline;}
+div.ttPrograms div.tooltipmenu a div.eics h5.header:hover {text-decoration:none;}
+div.ttPrograms div.tooltipmenu a div.echo h5.header {text-decoration:underline;}
+div.ttPrograms div.tooltipmenu a div.echo h5.header:hover {text-decoration:none;}
+div.ttPrograms div.tooltipmenu a div.usmle h5.header {text-decoration:underline;}
+div.ttPrograms div.tooltipmenu a div.usmle h5.header:hover {text-decoration:none;}
+div.ttPrograms div.tooltipmenu a div.eras h5.header {text-decoration:underline;}
+div.ttPrograms div.tooltipmenu a div.eras h5.header:hover {text-decoration:none;}
+
+/************ On-Line Services Tooltips **************/
+div.ttOnlineservices div.tooltipmenu a div.iwa h5.header {text-decoration:underline;}
+div.ttOnlineservices div.tooltipmenu a div.iwa h5.header:hover {text-decoration:none;}
+div.ttOnlineservices div.tooltipmenu a div.oasis h5.header {text-decoration:underline;}
+div.ttOnlineservices div.tooltipmenu a div.oasis h5.header:hover {text-decoration:none;}
+div.ttOnlineservices div.tooltipmenu a div.step2cs h5.header {text-decoration:underline;}
+div.ttOnlineservices div.tooltipmenu a div.step2cs h5.header:hover {text-decoration:none;}
+div.ttOnlineservices div.tooltipmenu a div.ian h5.header {text-decoration:underline;}
+div.ttOnlineservices div.tooltipmenu a div.ian h5.header:hover {text-decoration:none;}
+div.ttOnlineservices div.tooltipmenu a div.cvsonlineL h5.header {text-decoration:underline;}
+div.ttOnlineservices div.tooltipmenu a div.cvsonlineL h5.header:hover {text-decoration:none;}
+div.ttOnlineservices div.tooltipmenu a div.emswp h5.header {text-decoration:underline;}
+div.ttOnlineservices div.tooltipmenu a div.emswp h5.header:hover {text-decoration:none;}
+div.ttOnlineservices div.tooltipmenu a div.evn h5.header {text-decoration:underline;}
+div.ttOnlineservices div.tooltipmenu a div.evn h5.header:hover {text-decoration:none;}
+div.ttOnlineservices div.tooltipmenu a div.cvsonline h5.header {text-decoration:underline;}
+div.ttOnlineservices div.tooltipmenu a div.cvsonline h5.header:hover {text-decoration:none;}
+div.ttOnlineservices div.tooltipmenu a div.employment h5.header {text-decoration:underline;}
+div.ttOnlineservices div.tooltipmenu a div.employment h5.header:hover {text-decoration:none;}
+div.ttOnlineservices div.tooltipmenu a div.overview h5.header {text-decoration:underline;}
+div.ttOnlineservices div.tooltipmenu a div.overview h5.header:hover {text-decoration:none;}
+div.ttOnlineservices div.tooltipmenu a div.imed h5.header {text-decoration:underline;}
+div.ttOnlineservices div.tooltipmenu a div.imed h5.header:hover {text-decoration:none;}
+
+/**************  Resources Tooltips **************/
+div.ttResources div.tooltipmenu a div.six h5.header {text-decoration:underline;}
+div.ttResources div.tooltipmenu a div.six h5.header:hover {text-decoration:none;}
+div.ttResources div.tooltipmenu a div.behavior h5.header {text-decoration:underline;}
+div.ttResources div.tooltipmenu a div.behavior h5.header:hover {text-decoration:none;}
+div.ttResources div.tooltipmenu a div.roverview h5.header {text-decoration:underline;}
+div.ttResources div.tooltipmenu a div.roverview h5.header:hover {text-decoration:none;}
+div.ttResources div.tooltipmenu div.data a div.imagelink h5 {text-decoration:underline;}
+div.ttResources div.tooltipmenu div.data a div.imagelink h5:hover {text-decoration:none;}
+
 /************* NEWS TOOLTIP STYLES ************/
 div.ttNews div.tooltipmenu {padding:38px 10px 10px 15px;}
 

@@ -64,6 +64,9 @@
       <div class="ttAbout">
         <div class="tooltipmenu">
           <div class="thirty-three">
+          <!-- Start HIDDEN IMAGE for setting default thumbnail as globe //-->
+          <img src="http://www.ecfmg.org/images/an-ecfmg-logo.gif" style="width:0, height:0; display:none;" alt="ECFMG globe" />
+          <!-- End HIDDEN IMAGE for setting default thumbnail as globe //-->          
             <a href="/about/index.html">
               <div class="aboutoverview">
                 <h5>Overview</h5>
@@ -71,7 +74,7 @@
             </a>
             <a href="/about/statement-of-values.html">
               <div class="svmpecfmg">
-                <h5 class="svmp">Statement of Values, Mission, and Purposes</h5>
+                <h5 class="svmp">Statement of Values,<br /> Mission, and Purposes</h5>
               </div> 
             </a>
             <a href="/about/annual-report.html">
@@ -260,12 +263,12 @@
         <div class="tooltipmenu">
           <!--[if IE 8]><![endif]-->
             <ul class="newslist">
-              <li><a href="http://www.ecfmg.org/news/?p=554" class="listone">New ECFMG Program Provides Support and Service to International Medical Graduates</a> (JUL 5, 2012)</li>
-              <li><a href="http://www.ecfmg.org/news/?p=536" class="listone">ERAS 2013 Residency Tokens Now Available</a> (JUN 26, 2012)</li> 
-              <li><a href="http://www.ecfmg.org/news/?p=521" class="listone">Attempt Limit for USMLE Examinations</a> (JUN 25, 2012)</li>  
-              <li><a href="http://www.ecfmg.org/news/?p=506" class="listone">Changes to Biometric Enabled Check-in Program at Test Centers</a> (JUN 22, 2012)</li> 
-              <li><a href="http://www.ecfmg.org/news/?p=510" class="listone">The 2013 Schedule for Reporting Step 2 Clinical Skills Results Is Available</a> (JUN 22, 2012)</li>  
-              <li><a href="http://www.ecfmg.org/news/?p=497" class="listone">Change in Minimum Passing Requirements for Step 2 CK</a> (JUN 14, 2012)</li> 
+              <li><a href="http://www.ecfmg.org/news/?p=829" class="listone">USMLE Step 1 Score Reporting</a> (MAR 26, 2013)</li> 
+              <li><a href="http://www.ecfmg.org/news/?p=751" class="listone">Changes to USMLE Procedures for Reporting Scores: Elimination of 2-digit Score on or about April 1</a> (MAR 22, 2013)</li>    
+              <li><a href="http://www.ecfmg.org/news/?p=814" class="listone">IMG Performance in the 2013 Match</a> (MAR 21, 2013)</li>  
+               <li><a href="http://www.ecfmg.org/news/?p=810" class="listone">ECFMG Selected as a Top Workplace by Philly.com</a> (MAR 19, 2013)</li>
+               <li><a href="http://www.ecfmg.org/news/?p=787" class="listone">Now Available: New ECHO Resources for ECFMG-certified Physicians</a> (MAR 8, 2013)</li>
+              <li><a href="http://www.ecfmg.org/news/?p=777" class="listone">Paper Supporting Documents Will Not Be Accepted for ERAS 2014</a> (FEB 4, 2013)</li>                    
             </ul>
             <ul class="allnews">
               <li><a href="http://www.ecfmg.org/news/">All News &raquo;</a></li>
@@ -310,9 +313,9 @@
           </div><!-- end thirtythree -->
           <div class="annualreport border-left">            
               <div class="aplink">
-                <a href="resources/ECFMG-2011-annual-report.pdf" class="underline"><h5>2011 Annual Report</h5></a>
-                <a href="resources/ECFMG-2011-annual-report.pdf" class="underline"><img src="images/ecfmg-2011-annual-report.jpg" alt="2011 ECFMG Annual Report" /></a>
-                <h5>PDF</h5>
+                <h5>2013 <i>Information Booklet</i></h5>
+                <a href="2013ib/" class="underline"><img src="images/2013ib.gif" alt="ECFMG 2013 Information Booklet" /></a>
+                <h5><a href="2013ib/" class="underline">HTML</a> | <a href="2013ib/2013ib.pdf" class="underline" target="_blank">PDF</a></h5>
                 <a href="resources/publications.html"><h5 class="imageh5">More Publications &raquo;</h5></a>
               </div>
           </div><!-- end annualreport -->
@@ -336,18 +339,43 @@
     <!-- code for tooltips -->
     <script type="text/javascript"><!--
       $(document).ready(function() { 
-        $('div.about').tooltip({position: 'bottom'});                      // triggers about tooltip
-        $('div.programs').tooltip({position: 'bottom'});                   // triggers programs tooltip
-        $('div.onlineservices').tooltip({position: 'bottom'});             // triggers onlineservices tooltip
-        $('div.news').tooltip({position: 'bottom'});                       // triggers news tooltip
-        $('div.resources').tooltip({position: 'bottom'});                  // triggers resources tooltip
+        
+        $('.about').mouseover(function(){$('div.ttAbout').show()}); // if about is moused over, show tooltip
+        $('.about').mouseout(function(){$('div.ttAbout').hide()}); // if about is moused out, hide tooltip
+        $('div.ttAbout').mouseover(function(){$(this).show()}); // if tooltip div is moused over, remain showing
+        $('div.ttAbout').mouseout(function(){$(this).hide()}); // if tooltip div is moused out, hide itself
+        
+        $('a.programs').mouseover(function(){$('div.ttPrograms').show()}); // if programs is moused over, show div
+        $('a.programs').mouseout(function(){$('div.ttPrograms').hide()}); // if programs is moused out, hide div
+        $('div.ttPrograms').mouseover(function(){$(this).show()}); // if tooltip div is moused over, remain showing
+        $('div.ttPrograms').mouseout(function(){$(this).hide()}); // if tooltip div is moused out, hide itself
+        
+        $('a.onlineservices').mouseover(function(){$('div.ttOnlineservices').show()}); // if programs is moused over, show div
+        $('a.onlineservices').mouseout(function(){$('div.ttOnlineservices').hide()}); // if programs is moused out, hide div
+        $('div.ttOnlineservices').mouseover(function(){$(this).show()}); // if tooltip div is moused over, remain showing
+        $('div.ttOnlineservices').mouseout(function(){$(this).hide()}); // if tooltip div is moused out, hide itself
+        
+        $('a.news').mouseover(function(){$('div.ttNews').show()}); // if programs is moused over, show div
+        $('a.news').mouseout(function(){$('div.ttNews').hide()}); // if programs is moused out, hide div
+        $('div.ttNews').mouseover(function(){$(this).show()}); // if tooltip div is moused over, remain showing
+        $('div.ttNews').mouseout(function(){$(this).hide()}); // if tooltip div is moused out, hide itself
+        
+        $('a.resources').mouseover(function(){$('div.ttResources').show()}); // if programs is moused over, show div
+        $('a.resources').mouseout(function(){$('div.ttResources').hide()}); // if programs is moused out, hide div
+        $('div.ttResources').mouseover(function(){$(this).show()}); // if tooltip div is moused over, remain showing
+        $('div.ttResources').mouseout(function(){$(this).hide()}); // if tooltip div is moused out, hide itself
+        
         $("#acculturation-video a[rel^='prettyPhoto']").prettyPhoto({autoplay_slideshow: false, counter_separator_label: '/', social_tools:false}); // acculturation video id
         $("#echo-video a[rel^='prettyPhoto']").prettyPhoto({autoplay_slideshow: false, counter_separator_label: '/', social_tools:false}); // echo video id
         $("#section1 a[rel^='prettyPhoto']").prettyPhoto({autoplay_slideshow: false, counter_separator_label: '/', social_tools:false}); // test id for photos
         $("#flashbox a[rel^='prettyPhoto']").prettyPhoto({autoplay_slideshow: false, counter_separator_label: '/', social_tools:false}); // test id for video
         $("#youtube-test a[rel^='prettyPhoto']").prettyPhoto({autoplay_slideshow: false, counter_separator_label: '/', social_tools:false}); // test id for youtube vids
         
-        /************************** about rollovers **********************/      
+        /************************** about rollovers **********************/  
+        if (!$.support.leadingWhitespace) {
+        /* no rollovers for ie7 and ie8 because of flickering */
+        } else { /* make rollovers for all other browsers */
+            
         $('.aboutoverview')
           .mouseover(function(){$(this).css("background-color","#c9e5e8")})
           .mouseout(function(){$(this).css("background-color","transparent")})
@@ -449,6 +477,7 @@
           .mouseout(function(){$(this).css("background-color","transparent")})  
         $('.roverview')
           .mouseover(function(){$(this).css("background-color","#fde9ca")})
-          .mouseout(function(){$(this).css("background-color","transparent")}) 
+          .mouseout(function(){$(this).css("background-color","transparent")})
+          } /* end conditional block targeting ie7 and ie8 */ 
       });
     //done hiding code--></script>
